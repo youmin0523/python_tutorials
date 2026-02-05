@@ -1,14 +1,7 @@
 [project]
-name = "python"
+name = "my-project"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = [
-    "pandas>=3.0.0",
-]
-
-[tool.uv.workspace]
-members = [
-    "my-project",
-]
+dependencies = []

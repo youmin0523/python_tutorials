@@ -9,7 +9,7 @@
 print("---------Dict test----------")
 a = {
     "name": "marshall",
-    "age": "20",
+    "age": 20,
     "address": "seoul",
     "gu": ["Gangnam", "dobong", "guro"],
 }
@@ -54,6 +54,7 @@ print("---------요소의 추가----------")
 a["color"] = ["red", "green", "blue"]
 print(a)
 
-#
+# for 반복문을 이용한 요소 출력
+print("---------for 반복문을 이용한 요소 출력----------")
 for x in a:
-    print(x.get("name"))
+    print(a.get(x))

@@ -10,6 +10,17 @@ resolution-markers = [
     "python_full_version < '3.14' and sys_platform != 'emscripten' and sys_platform != 'win32'",
 ]
 
+[manifest]
+members = [
+    "my-project",
+    "python",
+]
+
+[[package]]
+name = "my-project"
+version = "0.1.0"
+source = { virtual = "my-project" }
+
 [[package]]
 name = "numpy"
 version = "2.4.2"

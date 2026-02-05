@@ -14,10 +14,10 @@ except ValueError:
     print(f"{temp}는 유효하지 않은 문자열입니다. 숫자로 입력해주세요.")
     exit()
 
-if unit.upper() == "C":
+if unit.lower() == "C":
     temp = round((temp * 9 / 5) + 32)
     C_or_F = "화씨"
-elif unit.upper() == "F":
+elif unit.lower() == "F":
     temp = round((temp - 32) * 5 / 9)
     C_or_F = "섭씨"
 
